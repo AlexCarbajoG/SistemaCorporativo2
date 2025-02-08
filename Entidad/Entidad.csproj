@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="DB_ACCESO.cs" />
     <Compile Include="DB_MENU.cs" />
+    <Compile Include="DB_REG_FIS.cs" />
     <Compile Include="DB_USUARIO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
