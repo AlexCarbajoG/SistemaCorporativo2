@@ -1,0 +1,11 @@
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\bin\Debug\Negocio.dll
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\bin\Debug\Negocio.pdb
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\bin\Debug\Datos.dll
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\bin\Debug\Entidad.dll
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\bin\Debug\Datos.pdb
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\bin\Debug\Entidad.pdb
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\obj\Debug\Negocio.csproj.Up2Date
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\obj\Debug\Negocio.dll
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Negocio\obj\Debug\Negocio.pdb

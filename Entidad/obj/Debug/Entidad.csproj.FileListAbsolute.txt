@@ -1,0 +1,6 @@
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Entidad\bin\Debug\Entidad.dll
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Entidad\bin\Debug\Entidad.pdb
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Entidad\obj\Debug\Entidad.dll
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Entidad\obj\Debug\Entidad.pdb
