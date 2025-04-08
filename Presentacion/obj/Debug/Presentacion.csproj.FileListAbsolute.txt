@@ -30,3 +30,7 @@ D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\D
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Proveedores.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.SegmentoComerciales.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Vendedores.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.MenuSistema.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.UsuarioSistema.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Acceso.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.CreacionOC.resources

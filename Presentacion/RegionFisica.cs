@@ -24,8 +24,34 @@ namespace Presentacion
 
         private void RegionFisica_Load(object sender, EventArgs e)
         {
+            try
+            {
+                N_Usuario objUsuario = new N_Usuario();
+                DB_USUARIO usuario = objUsuario.ObtenerPrimerUsuario();
 
+                if (usuario != null)
+                {
+                    txt_codigousuario.Text = usuario.COD_USER; // Asignar el COD_USER automáticamente
+                    txt_codigousuario.ReadOnly = true; // Hacer que el usuario no pueda modificarlo
+                }
+                else
+                {
+                    MessageBox.Show("No se encontraron usuarios en la base de datos.");
+                }
+
+                // Bloquear txt_fechacreacion para que no se pueda escribir al inicio
+                txt_fechacreacion.ReadOnly = true;
+                txt_fechacreacion.BackColor = SystemColors.Control; // Fondo gris claro
+                txt_fechacreacion.TabStop = false; // No se puede enfocar con TAB
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar el usuario: " + ex.Message);
+            }
         }
+
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -73,11 +99,18 @@ namespace Presentacion
                 DateTime fechaActual = DateTime.Now;
                 txt_fechacreacion.Text = fechaActual.ToString("yyyy-MM-dd HH:mm:ss");
 
+                                  string codUsuario = txt_codigousuario.Text.Trim();
+                if (string.IsNullOrEmpty(codUsuario))
+                {
+                    MessageBox.Show("No se pudo obtener el usuario. Verifique que haya usuarios registrados.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 DB_REG_FIS nuevaRegion = new DB_REG_FIS()
                 {
                     COD_REG = Convert.ToInt16(txt_codigo.Text),
                     DES_REG = txt_descripcion.Text,
-                    COD_USER = txt_codigousuario.Text,
+                    COD_USER = codUsuario,  
                     FEC_ABM = Convert.ToDateTime(txt_fechacreacion.Text)
 
                 };
@@ -92,7 +125,7 @@ namespace Presentacion
 
                     txt_codigo.Clear();
                     txt_descripcion.Clear();
-                    txt_codigousuario.Clear();
+                 
                     txt_fechacreacion.Clear();
 
                 }
@@ -158,6 +191,14 @@ namespace Presentacion
                     // Deshabilitar el botón "Agregar" y habilitar "Guardar"
                     btn_agregar.Enabled = false;
                     btn_guardar.Enabled = true;
+
+                    // HABILITAR txt_fechacreacion para permitir su modificación
+                    txt_fechacreacion.ReadOnly = false;
+                    txt_fechacreacion.BackColor = SystemColors.Window; // Fondo blanco normal
+                    txt_fechacreacion.TabStop = true; // Se puede enfocar con TAB
+
+
+
                 }
                 else
                 {
@@ -175,15 +216,47 @@ namespace Presentacion
         {
             try
             {
+                string codUsuario = txt_codigousuario.Text.Trim();
+                if (string.IsNullOrEmpty(codUsuario))
+                {
+                    MessageBox.Show("No se pudo obtener el usuario. Verifique que haya usuarios registrados.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Obtener la descripción de la región antes de actualizar
+                string descripcionRegion = txt_descripcion.Text.Trim();
+
+                // Mensaje de confirmación antes de proceder con la actualización
+                DialogResult confirmacion = MessageBox.Show(
+                    $"¿Está seguro que desea modificar la región: {descripcionRegion}?",
+                    "Confirmación de Actualización",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question
+                );
+
+                if (confirmacion == DialogResult.No)
+                {
+                    // Si el usuario elige "No", se cancelará la actualización y se limpiarán los campos
+                    txt_codigo.Clear();
+                    txt_descripcion.Clear();
+                    txt_fechacreacion.Clear();
+
+                    MessageBox.Show("Actualización cancelada.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                // Si el usuario elige "Sí", se procede con la actualización
                 DB_REG_FIS regionActualizada = new DB_REG_FIS()
                 {
                     COD_REG = Convert.ToInt16(txt_codigo.Text),
                     DES_REG = txt_descripcion.Text,
-                    COD_USER = txt_codigousuario.Text,
+                    COD_USER = codUsuario,
                     FEC_ABM = Convert.ToDateTime(txt_fechacreacion.Text)
                 };
 
                 bool resultado = objNegocio.Actualizar(regionActualizada);
+
+
 
                 if (resultado)
                 {
@@ -195,7 +268,7 @@ namespace Presentacion
                     // Limpiar los campos de entrada
                     txt_codigo.Clear();
                     txt_descripcion.Clear();
-                    txt_codigousuario.Clear();
+
                     txt_fechacreacion.Clear();
 
                     btn_agregar.Enabled = true;
@@ -255,6 +328,11 @@ namespace Presentacion
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+
+        }
+
+        private void txt_fechacreacion_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

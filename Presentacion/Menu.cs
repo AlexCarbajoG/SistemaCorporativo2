@@ -123,5 +123,41 @@ namespace Presentacion
         {
             MostrarFormularioEnPanel(new LoteDeArticulos());
         }
+
+        private void parametrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sistemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new MenuSistema());
+        }
+
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new UsuarioSistema());                                         
+        }
+
+        private void accesoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new Acceso());
+        }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void creaciónDeOCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new CreacionOC());
+        }
     }
 }
+                       

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\presentacion\\regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\presentacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\presentacion\\regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\presentacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C92C9931-0E45-47EF-B33E-67BD4F7BF25E}|Negocio\\Negocio.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\negocio\\n_regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C92C9931-0E45-47EF-B33E-67BD4F7BF25E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\n_regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\presentacion\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819070EE-67D5-4F1D-AA3F-8BCD9D0806FE}|Datos\\Datos.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\datos\\cd_regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{819070EE-67D5-4F1D-AA3F-8BCD9D0806FE}|Datos\\Datos.csproj|solutionrelative:datos\\cd_regionfisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\presentacion\\creacionoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\creacionoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795DDAC9-598F-42BD-AC18-DB5466EC1925}|Entidad\\Entidad.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\entidad\\db_reg_fis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795DDAC9-598F-42BD-AC18-DB5466EC1925}|Entidad\\Entidad.csproj|solutionrelative:entidad\\db_reg_fis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C92C9931-0E45-47EF-B33E-67BD4F7BF25E}|Negocio\\Negocio.csproj|D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\negocio\\n_acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92C9931-0E45-47EF-B33E-67BD4F7BF25E}|Negocio\\Negocio.csproj|solutionrelative:negocio\\n_acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|d:\\6to ciclo\\proyecto desarrollo de software 2\\sistemaventas2\\presentacion\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193C3F0A-9322-4893-937B-84C578149FF7}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819070EE-67D5-4F1D-AA3F-8BCD9D0806FE}|Datos\\Datos.csproj|D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\datos\\cd_acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819070EE-67D5-4F1D-AA3F-8BCD9D0806FE}|Datos\\Datos.csproj|solutionrelative:datos\\cd_acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795DDAC9-598F-42BD-AC18-DB5466EC1925}|Entidad\\Entidad.csproj|D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\entidad\\db_acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795DDAC9-598F-42BD-AC18-DB5466EC1925}|Entidad\\Entidad.csproj|solutionrelative:entidad\\db_acceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "N_Acceso.cs",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Negocio\\N_Acceso.cs",
+              "RelativeDocumentMoniker": "Negocio\\N_Acceso.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Negocio\\N_Acceso.cs",
+              "RelativeToolTip": "Negocio\\N_Acceso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:08:10.406Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Acceso.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Acceso.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Acceso.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Acceso.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Acceso.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:10:34.577Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -45,68 +84,82 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CD_RegionFisica.cs",
-              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Datos\\CD_RegionFisica.cs",
-              "RelativeDocumentMoniker": "Datos\\CD_RegionFisica.cs",
-              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Datos\\CD_RegionFisica.cs",
-              "RelativeToolTip": "Datos\\CD_RegionFisica.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAADwv3oAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:47:44.904Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegionFisica.cs",
-              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\RegionFisica.cs",
-              "RelativeDocumentMoniker": "Presentacion\\RegionFisica.cs",
-              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\RegionFisica.cs",
-              "RelativeToolTip": "Presentacion\\RegionFisica.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAUwEkAAABVAAAAAAAAAA==",
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Menu.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Menu.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Menu.cs",
+              "RelativeToolTip": "Presentacion\\Menu.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAQwI0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:45:05.831Z",
+              "WhenOpened": "2025-04-08T05:45:23.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegionFisica.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\RegionFisica.cs",
-              "RelativeDocumentMoniker": "Presentacion\\RegionFisica.cs",
-              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\RegionFisica.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion\\RegionFisica.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "CreacionOC.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\CreacionOC.cs",
+              "RelativeDocumentMoniker": "Presentacion\\CreacionOC.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\CreacionOC.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\CreacionOC.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:45:02.264Z",
+              "WhenOpened": "2025-04-08T05:44:15.867Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "N_RegionFisica.cs",
-              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Negocio\\N_RegionFisica.cs",
-              "RelativeDocumentMoniker": "Negocio\\N_RegionFisica.cs",
-              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Negocio\\N_RegionFisica.cs",
-              "RelativeToolTip": "Negocio\\N_RegionFisica.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Menu.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Menu.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion\\Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:39:22.103Z",
+              "WhenOpened": "2025-04-08T05:42:07.809Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Acceso.cs",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Acceso.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Acceso.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Presentacion\\Acceso.cs",
+              "RelativeToolTip": "Presentacion\\Acceso.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwHUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:27:12.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DB_REG_FIS.cs",
-              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Entidad\\DB_REG_FIS.cs",
-              "RelativeDocumentMoniker": "Entidad\\DB_REG_FIS.cs",
-              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Entidad\\DB_REG_FIS.cs",
-              "RelativeToolTip": "Entidad\\DB_REG_FIS.cs",
+              "DocumentIndex": 6,
+              "Title": "CD_Acceso.cs",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Datos\\CD_Acceso.cs",
+              "RelativeDocumentMoniker": "Datos\\CD_Acceso.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Datos\\CD_Acceso.cs",
+              "RelativeToolTip": "Datos\\CD_Acceso.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T01:05:52.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DB_ACCESO.cs",
+              "DocumentMoniker": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Entidad\\DB_ACCESO.cs",
+              "RelativeDocumentMoniker": "Entidad\\DB_ACCESO.cs",
+              "ToolTip": "D:\\6to Ciclo\\Proyecto Desarrollo de Software 2\\SistemaVentas2\\Entidad\\DB_ACCESO.cs",
+              "RelativeToolTip": "Entidad\\DB_ACCESO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:27:47.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T01:04:27.253Z"
             }
           ]
         }

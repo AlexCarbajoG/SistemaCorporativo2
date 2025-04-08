@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceso.Designer.cs">
+      <DependentUpon>Acceso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Almacenes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +63,12 @@
     </Compile>
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreacionOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreacionOC.Designer.cs">
+      <DependentUpon>CreacionOC.cs</DependentUpon>
     </Compile>
     <Compile Include="Fabricantes.cs">
       <SubType>Form</SubType>
@@ -106,6 +118,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuSistema.Designer.cs">
+      <DependentUpon>MenuSistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persona.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,17 +156,29 @@
     <Compile Include="UbicacionGeografica.Designer.cs">
       <DependentUpon>UbicacionGeografica.cs</DependentUpon>
     </Compile>
+    <Compile Include="UsuarioSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioSistema.Designer.cs">
+      <DependentUpon>UsuarioSistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vendedores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vendedores.Designer.cs">
       <DependentUpon>Vendedores.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Acceso.resx">
+      <DependentUpon>Acceso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Almacenes.resx">
       <DependentUpon>Almacenes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreacionOC.resx">
+      <DependentUpon>CreacionOC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Fabricantes.resx">
       <DependentUpon>Fabricantes.cs</DependentUpon>
@@ -174,6 +204,9 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuSistema.resx">
+      <DependentUpon>MenuSistema.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Persona.resx">
       <DependentUpon>Persona.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UbicacionGeografica.resx">
       <DependentUpon>UbicacionGeografica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioSistema.resx">
+      <DependentUpon>UsuarioSistema.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vendedores.resx">
       <DependentUpon>Vendedores.cs</DependentUpon>

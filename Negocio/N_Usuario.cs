@@ -18,5 +18,27 @@ namespace Negocio
         {
             return objcd_usuario.Listar();
         }
+
+        public bool Insertar(DB_USUARIO usuario)
+        {
+            return objcd_usuario.Insertar(usuario);
+        }
+
+        public bool Actualizar(DB_USUARIO usuario)
+        {
+            return objcd_usuario.Actualizar(usuario);
+        }
+
+        public bool Eliminar(string codUsuario)
+        {
+            return objcd_usuario.Eliminar(codUsuario);
+        }
+
+
+        public DB_USUARIO ObtenerPrimerUsuario()
+        {
+            return objcd_usuario.ObtenerPrimerUsuario();
+        }
+
     }
 }

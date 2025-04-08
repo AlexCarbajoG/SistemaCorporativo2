@@ -35,6 +35,10 @@
             this.btn_eliminar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Tabla_regionfisica = new System.Windows.Forms.DataGridView();
+            this.CodigoRegion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CodigoUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FechaCreación = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripción = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txt_codigoregion = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_codigousuario = new System.Windows.Forms.TextBox();
@@ -45,10 +49,6 @@
             this.txt_fechacreacion = new System.Windows.Forms.TextBox();
             this.txt_codigo = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.CodigoRegion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CodigoUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FechaCreación = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripción = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Tabla_regionfisica)).BeginInit();
@@ -73,7 +73,7 @@
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(110, 51);
             this.btn_guardar.TabIndex = 1;
-            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.Text = "Guardar Actualización";
             this.btn_guardar.UseVisualStyleBackColor = true;
             this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
@@ -84,16 +84,16 @@
             this.btn_agregar.Name = "btn_agregar";
             this.btn_agregar.Size = new System.Drawing.Size(110, 51);
             this.btn_agregar.TabIndex = 2;
-            this.btn_agregar.Text = "Agregar";
+            this.btn_agregar.Text = "Agregar Nueva Región";
             this.btn_agregar.UseVisualStyleBackColor = true;
             this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // btn_actualizar
             // 
             this.btn_actualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btn_actualizar.Location = new System.Drawing.Point(827, 27);
+            this.btn_actualizar.Location = new System.Drawing.Point(760, 49);
             this.btn_actualizar.Name = "btn_actualizar";
-            this.btn_actualizar.Size = new System.Drawing.Size(110, 51);
+            this.btn_actualizar.Size = new System.Drawing.Size(84, 36);
             this.btn_actualizar.TabIndex = 3;
             this.btn_actualizar.Text = "Actualizar";
             this.btn_actualizar.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             // btn_eliminar
             // 
             this.btn_eliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.btn_eliminar.Location = new System.Drawing.Point(711, 476);
+            this.btn_eliminar.Location = new System.Drawing.Point(850, 49);
             this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(110, 51);
+            this.btn_eliminar.Size = new System.Drawing.Size(87, 36);
             this.btn_eliminar.TabIndex = 4;
             this.btn_eliminar.Text = "Eliminar";
             this.btn_eliminar.UseVisualStyleBackColor = true;
@@ -134,6 +134,34 @@
             this.Tabla_regionfisica.Size = new System.Drawing.Size(525, 372);
             this.Tabla_regionfisica.TabIndex = 6;
             this.Tabla_regionfisica.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // CodigoRegion
+            // 
+            this.CodigoRegion.FillWeight = 110F;
+            this.CodigoRegion.HeaderText = "Código Región";
+            this.CodigoRegion.Name = "CodigoRegion";
+            this.CodigoRegion.Width = 120;
+            // 
+            // CodigoUsuario
+            // 
+            this.CodigoUsuario.FillWeight = 110F;
+            this.CodigoUsuario.HeaderText = "Descripción";
+            this.CodigoUsuario.Name = "CodigoUsuario";
+            this.CodigoUsuario.Width = 120;
+            // 
+            // FechaCreación
+            // 
+            this.FechaCreación.FillWeight = 110F;
+            this.FechaCreación.HeaderText = "Código Usuario";
+            this.FechaCreación.Name = "FechaCreación";
+            this.FechaCreación.Width = 120;
+            // 
+            // Descripción
+            // 
+            this.Descripción.FillWeight = 110F;
+            this.Descripción.HeaderText = "Fecha Creación";
+            this.Descripción.Name = "Descripción";
+            this.Descripción.Width = 120;
             // 
             // txt_codigoregion
             // 
@@ -199,6 +227,7 @@
             this.txt_fechacreacion.Name = "txt_fechacreacion";
             this.txt_fechacreacion.Size = new System.Drawing.Size(180, 20);
             this.txt_fechacreacion.TabIndex = 15;
+            this.txt_fechacreacion.TextChanged += new System.EventHandler(this.txt_fechacreacion_TextChanged);
             // 
             // txt_codigo
             // 
@@ -215,34 +244,6 @@
             this.label6.Size = new System.Drawing.Size(77, 13);
             this.label6.TabIndex = 17;
             this.label6.Text = "Codigo Región";
-            // 
-            // CodigoRegion
-            // 
-            this.CodigoRegion.FillWeight = 110F;
-            this.CodigoRegion.HeaderText = "Código Región";
-            this.CodigoRegion.Name = "CodigoRegion";
-            this.CodigoRegion.Width = 120;
-            // 
-            // CodigoUsuario
-            // 
-            this.CodigoUsuario.FillWeight = 110F;
-            this.CodigoUsuario.HeaderText = "Descripción";
-            this.CodigoUsuario.Name = "CodigoUsuario";
-            this.CodigoUsuario.Width = 120;
-            // 
-            // FechaCreación
-            // 
-            this.FechaCreación.FillWeight = 110F;
-            this.FechaCreación.HeaderText = "Código Usuario";
-            this.FechaCreación.Name = "FechaCreación";
-            this.FechaCreación.Width = 120;
-            // 
-            // Descripción
-            // 
-            this.Descripción.FillWeight = 110F;
-            this.Descripción.HeaderText = "Fecha Creación";
-            this.Descripción.Name = "Descripción";
-            this.Descripción.Width = 120;
             // 
             // panel1
             // 
