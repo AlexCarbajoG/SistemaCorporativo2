@@ -17,7 +17,6 @@ D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\bin\D
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\bin\Debug\Datos.pdb
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.RegionFisica.resources
-D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.UbicacionGeografica.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Almacenes.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Clientes.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Fabricantes.resources
@@ -34,3 +33,8 @@ D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\D
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.UsuarioSistema.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Acceso.resources
 D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.CreacionOC.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.UbicaionGeogrfica.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Locacion.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.Trabajadores.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.CreacionDePedidos.resources
+D:\6to Ciclo\Proyecto Desarrollo de Software 2\SistemaVentas2\Presentacion\obj\Debug\Presentacion.CierreDePedidos.resources

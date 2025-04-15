@@ -42,9 +42,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="N_Acceso.cs" />
+    <Compile Include="N_Articulo.cs" />
+    <Compile Include="N_Cliente.cs" />
+    <Compile Include="N_Fabricante.cs" />
+    <Compile Include="N_FamiliaArticulo.cs" />
+    <Compile Include="N_Locacion.cs" />
+    <Compile Include="N_MarcaArticulo.cs" />
     <Compile Include="N_MenuSistema.cs" />
+    <Compile Include="N_PedidoCabecera.cs" />
+    <Compile Include="N_PedidoDetalle.cs" />
+    <Compile Include="N_Persona.cs" />
+    <Compile Include="N_Proveedor.cs" />
     <Compile Include="N_RegionFisica.cs" />
+    <Compile Include="N_SegmentosComerciales.cs" />
+    <Compile Include="N_Trabajador.cs" />
+    <Compile Include="N_UbicacionGeografica.cs" />
     <Compile Include="N_Usuario.cs" />
+    <Compile Include="N_Vendedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

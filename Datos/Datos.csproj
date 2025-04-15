@@ -43,8 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CD_Acceso.cs" />
+    <Compile Include="CD_Articulo.cs" />
+    <Compile Include="CD_Cliente.cs" />
+    <Compile Include="CD_Fabricante.cs" />
+    <Compile Include="CD_FamiliaArticulo.cs" />
+    <Compile Include="CD_Locacion.cs" />
+    <Compile Include="CD_MarcaArticulo.cs" />
     <Compile Include="CD_MenuSistema.cs" />
+    <Compile Include="CD_PedidoCabecera.cs" />
+    <Compile Include="CD_PedidoDetalle.cs" />
+    <Compile Include="CD_Persona.cs" />
+    <Compile Include="CD_Proveedor.cs" />
     <Compile Include="CD_RegionFisica.cs" />
+    <Compile Include="CD_SegmentosComerciales.cs" />
+    <Compile Include="CD_Trabajador.cs" />
+    <Compile Include="CD_UbicacionGeografica.cs" />
+    <Compile Include="CD_Vendedor.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CD_Usuario.cs" />

@@ -61,7 +61,7 @@ namespace Presentacion
 
         private void btn_ubicacion_Click(object sender, EventArgs e)
         {
-            MostrarFormularioEnPanel(new UbicacionGeografica());
+            MostrarFormularioEnPanel(new UbicaionGeogrfica());
         }
 
         private void segmentosComercialesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -81,7 +81,7 @@ namespace Presentacion
 
         private void localToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MostrarFormularioEnPanel(new Local());
+            MostrarFormularioEnPanel(new Locacion());
         }
 
         private void almacenesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -157,6 +157,26 @@ namespace Presentacion
         private void creaciónDeOCToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MostrarFormularioEnPanel(new CreacionOC());
+        }
+
+        private void informesDeControlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trabajadoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new Trabajadores());
+        }
+
+        private void creacionDePedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new CreacionDePedidos());
+        }
+
+        private void cierreDePedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MostrarFormularioEnPanel(new CierreDePedidos());
         }
     }
 }

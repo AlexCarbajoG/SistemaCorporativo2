@@ -42,10 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BD_LICENCIA.cs" />
     <Compile Include="DB_ACCESO.cs" />
+    <Compile Include="DB_ARTICULO.cs" />
+    <Compile Include="DB_CLIENTE.cs" />
+    <Compile Include="DB_FABRICANTE.cs" />
+    <Compile Include="DB_FMA_ART.cs" />
+    <Compile Include="DB_LOCACION.cs" />
+    <Compile Include="DB_MAR_ART.cs" />
     <Compile Include="DB_MENU.cs" />
+    <Compile Include="DB_PERSONA.cs" />
+    <Compile Include="DB_PROVEEDOR.cs" />
     <Compile Include="DB_REG_FIS.cs" />
+    <Compile Include="DB_SEG_COM.cs" />
+    <Compile Include="DB_TRABAJADOR.cs" />
+    <Compile Include="DB_UBI_GEO.cs" />
     <Compile Include="DB_USUARIO.cs" />
+    <Compile Include="DB_VENDEDOR.cs" />
+    <Compile Include="HB_PED_CAB.cs" />
+    <Compile Include="HB_PED_DET.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

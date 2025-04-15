@@ -58,11 +58,23 @@
     <Compile Include="Almacenes.Designer.cs">
       <DependentUpon>Almacenes.cs</DependentUpon>
     </Compile>
+    <Compile Include="CierreDePedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CierreDePedidos.Designer.cs">
+      <DependentUpon>CierreDePedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreacionDePedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreacionDePedidos.Designer.cs">
+      <DependentUpon>CreacionDePedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="CreacionOC.cs">
       <SubType>Form</SubType>
@@ -81,6 +93,12 @@
     </Compile>
     <Compile Include="FamiliaDeArticulos.Designer.cs">
       <DependentUpon>FamiliaDeArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Locacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Locacion.Designer.cs">
+      <DependentUpon>Locacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Local.cs">
       <SubType>Form</SubType>
@@ -150,11 +168,17 @@
     <Compile Include="SegmentoComerciales.Designer.cs">
       <DependentUpon>SegmentoComerciales.cs</DependentUpon>
     </Compile>
-    <Compile Include="UbicacionGeografica.cs">
+    <Compile Include="Trabajadores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UbicacionGeografica.Designer.cs">
-      <DependentUpon>UbicacionGeografica.cs</DependentUpon>
+    <Compile Include="Trabajadores.Designer.cs">
+      <DependentUpon>Trabajadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbicaionGeogrfica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbicaionGeogrfica.Designer.cs">
+      <DependentUpon>UbicaionGeogrfica.cs</DependentUpon>
     </Compile>
     <Compile Include="UsuarioSistema.cs">
       <SubType>Form</SubType>
@@ -174,8 +198,14 @@
     <EmbeddedResource Include="Almacenes.resx">
       <DependentUpon>Almacenes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CierreDePedidos.resx">
+      <DependentUpon>CierreDePedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreacionDePedidos.resx">
+      <DependentUpon>CreacionDePedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreacionOC.resx">
       <DependentUpon>CreacionOC.cs</DependentUpon>
@@ -185,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FamiliaDeArticulos.resx">
       <DependentUpon>FamiliaDeArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Locacion.resx">
+      <DependentUpon>Locacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Local.resx">
       <DependentUpon>Local.cs</DependentUpon>
@@ -228,8 +261,11 @@
     <EmbeddedResource Include="SegmentoComerciales.resx">
       <DependentUpon>SegmentoComerciales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UbicacionGeografica.resx">
-      <DependentUpon>UbicacionGeografica.cs</DependentUpon>
+    <EmbeddedResource Include="Trabajadores.resx">
+      <DependentUpon>Trabajadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbicaionGeogrfica.resx">
+      <DependentUpon>UbicaionGeogrfica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsuarioSistema.resx">
       <DependentUpon>UsuarioSistema.cs</DependentUpon>
